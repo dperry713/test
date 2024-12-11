@@ -28,6 +28,6 @@ jobs:
           RENDER_API_KEY: ${{ secrets.render-API_key }}  # Set this in your repo secrets
         run: |
           curl -X POST "https://api.render.com/v1/services/rnd_3BJ4DDes331onOrgRjWA9VpUaDKM/deploys" \
-          -H "Authorization: Bearer $RENDER_API_KEY" \
+          -H "Authorization: Bearer $render_API_key" \
           -H "Content-Type: application/json" \
           -d '{}'
