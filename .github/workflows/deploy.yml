@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-           poetry install
+          poetry install
+           
 
 
       - name: Deploy to Render
